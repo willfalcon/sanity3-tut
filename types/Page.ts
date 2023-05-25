@@ -1,9 +1,9 @@
-import { PortableTextEditorElement } from "sanity"
+import { TypedObject } from "sanity"
 
 export type Page = {
   _id: string;
   _createdAt: string;
   title: string;
   slug: string;
-  content: PortableTextEditorElement[];
-}
+  content: TypedObject[];
+};
